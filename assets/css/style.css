@@ -1,0 +1,36 @@
+.okreci:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+}
+#spiner{
+    width: 5rem;
+    height: 5rem;
+}
+.sakrij{
+    display: none !important;
+}
+select{
+    background-color: transparent;
+    border: none;
+}
+table tr td{
+    vertical-align: middle !important;
+}
+.plavo{
+    /* color: #006994 !important; */
+    background-color: #0f5c7e !important;
+    border: 0px !important;
+}
+.transparentno{
+    background-color: rgba(255, 255, 255,0.1) !important;
+}
+table{
+    background-color: rgba(255, 255, 255,0.15) !important;
+}
+#izaBucket{
+    background-image: url("../img/buc.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-size: contain;
+}

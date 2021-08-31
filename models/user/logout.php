@@ -1,0 +1,13 @@
+<?php
+    session_start();
+    ob_start();
+    require_once("functions.php");
+    if(isset($_SESSION['user'])){
+        logout($_SESSION["user"]->uid);
+        unset($_SESSION['user']);
+        header("Location:index.php?page=login");
+    }
+    else{
+        header("Location:../../index.php?page=home");
+    }
+?>
